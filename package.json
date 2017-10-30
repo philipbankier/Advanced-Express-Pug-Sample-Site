@@ -1,10 +1,10 @@
 {
-  "name": "Philip-Bankier-Personal-Website",
-  "version": "4.3.0",
-  "description": "My personal website, where i will host my projects, pictures and other cool things that I find.",
+  "name": "Advanced-Express-Pug-Sample-Site",
+  "version": "1.0.0",
+  "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philipbankier/Personal-Website.git"
+    "url": "git+https://github.com/philipbankier/Advanced-Express-Pug-Sample-Site.git"
   },
   "author": "Philip Bankier",
   "license": "MIT",
@@ -101,9 +101,9 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/philipbankier/Personal-Website/issues"
+    "url": "https://github.com/philipbankier/Advanced-Express-Pug-Sample-Site/issues"
   },
-  "homepage": "https://github.com/philipbankier/Personal-Website#readme",
+  "homepage": "https://github.com/philipbankier/Advanced-Express-Pug-Sample-Site#readme",
   "main": "app.js",
   "directories": {
     "test": "test"
