@@ -1,0 +1,63 @@
+extends ../layout
+
+block content
+  .container-fluid.text-center.bg-1
+    .jumbotron(style="background:transparent !important")
+      h1 Create An Account
+      .container#hoverPic
+        img.img-responsive.margin#preHoverPic(src="/images/buddy/buddy6.jpg", alt="Image", align="middle")
+
+
+  .container-fluid.text-center.bg-7
+    .container-page
+      // FORM DIV 
+      .col-md-8.col-sm-offset-2.bg-4.page-header
+        h1 Create An Account
+        form.form-horizontal(id='signup-form', method='POST')
+          
+          input(type='hidden', name='_csrf', value=_csrf)
+          .form-group.col-lg-12
+            label.control-label.col-sm-2 Username
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Username', autofocus, required)
+     
+          .form-group.col-lg-12
+            label.control-label.col-sm-2 Password
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Password', autofocus, required)
+               
+          .form-group.col-lg-12
+            label.control-label.col-sm-2(for='confirmPassword') Confirm Password
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Confirm Password', autofocus, required)
+     
+          .form-group.col-lg-12
+            label.control-label.col-sm-2  Email Address
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Email', autofocus, required)
+
+          .form-group.col-lg-12
+            label.control-label.col-sm-2  Confirm Email Address
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Confirm Email', autofocus,required)
+      
+      
+          .form-group
+            .col-sm-offset-2.col-sm-10
+              .checkbox
+                label 
+                  input.checkbox(type="checkbox") 
+                  | Sign up for our newsletter
+          .form-group
+            .col-sm-offset-2.col-sm-10
+              .checkbox
+                label 
+                  input.checkbox(type="checkbox")
+                  | Send notifications to this email 
+          br
+          button.btn.btn-success(type="submit") 
+            i.fa.fa-user-plus Signup
+
+  br
+  br
+  br            
